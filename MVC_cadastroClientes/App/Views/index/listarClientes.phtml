@@ -1,0 +1,13 @@
+<h1>Listar clientes</h1>
+
+
+<?php
+
+foreach ($this->view->clientes as $cliente) {
+    foreach ($cliente as $key => $value) {
+        echo "$key : $value<br>";
+    }
+    echo "<hr/>";
+}
+
+?>
